@@ -19,6 +19,19 @@
     background-image: url(../source/main-background.jpeg);
 }
 
+#services-div{
+    display: flex;
+    flex-direction: column;
+    height: 105%;
+    padding: 2%;
+}
+
+#services-cards{
+    display: flex;
+    justify-content: space-around;
+    padding: 4%;
+}
+
 #footer {
     display: flex;
     flex-direction: row;
@@ -44,3 +57,4 @@
     justify-content: space-evenly;
     padding: 3%;
 }
+
