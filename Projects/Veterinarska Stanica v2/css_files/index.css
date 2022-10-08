@@ -18,3 +18,18 @@
     justify-content: space-evenly;
     background-image: url(../source/main-background.jpeg);
 }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333333;
+    color: rgba( 255, 255, 255, 0.7 );
+}
+
+#footer-first-div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 3%;
+}
