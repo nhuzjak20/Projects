@@ -19,8 +19,9 @@
     background-image: url(../source/main-background.jpeg);
 }
 
-footer {
+#footer {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     background-color: #333333;
     color: rgba( 255, 255, 255, 0.7 );
@@ -30,6 +31,16 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 3%;
+    width: max-content;
+}
+
+#footer-second-div {
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     justify-content: space-evenly;
     padding: 3%;
 }
