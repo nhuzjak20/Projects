@@ -1,3 +1,44 @@
-.panel, .active {
-    background-image: url("source/forrest1.jpg");
+*{
+    box-sizing: border-box;
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    height: 75vh;
+    width: 80vw;
+}
+
+.panel{
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 45px;
+    height: 75vh;
+    color: white;
+    cursor: pointer;
+    flex: 0.5;
+    margin: 3%;
+    position: relative;
+    transition: flex 0.7s ease-in;
+}
+
+.panel h3 {
+    font-size: 24px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+}
+
+
