@@ -1,0 +1,48 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.item-justify{
+    padding: 1%;
+    margin: 2%;
+    border-style: solid;
+}
+
+#center{
+    display: flex;
+    justify-content: center;
+}
+
+#left{
+    display: flex;
+    justify-content: left;
+}
+
+#right{
+    display: flex;
+    justify-content: right;
+}
+
+#space-around{
+    display: flex;
+    justify-content: space-around;
+}
+
+#space-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+#flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
